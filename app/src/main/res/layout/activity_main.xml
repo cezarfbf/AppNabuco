@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome_usuario"
+        android:hint="Nome do usuario" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btn_notas"
+
+        android:text="notas"
+        android:layout_below="@+id/nome_usuario"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <!--TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="notas/faltas"
+        android:id="@+id/textView"
+        android:textColor="#fff8f8f8"
+        android:layout_below="@+id/btn_notas"
+        android:gravity="center" /-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btn_quadro_horarios"
+
+        android:text="horarios"
+        android:layout_below="@+id/btn_notas"
+
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+    <!--TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="quadro de horarios"
+        android:id="@+id/textView2"
+        android:textColor="#fff8f8f8"
+        android:layout_below="@+id/btn_quadro_horarios"
+        android:layout_toRightOf="@+id/textView"
+        android:gravity="center" /-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btn_eventos"
+
+        android:text="eventos"
+        android:layout_below="@+id/btn_calendario"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <!--TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="eventos"
+        android:id="@+id/textView3"
+        android:textColor="#fff8f8f8"
+        android:layout_below="@+id/btn_eventos"
+        android:layout_toRightOf="@+id/textView4"
+        android:gravity="center" /-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:id="@+id/btn_calendario"
+
+
+        android:text="calendário"
+        android:layout_below="@+id/btn_msg_prof"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+    <!--TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="calendário"
+        android:id="@+id/textView4"
+        android:textColor="#fff8f8f8"
+        android:layout_below="@+id/btn_calendario"
+        android:gravity="center" /-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btn_msg_prof"
+        android:text="mensagem"
+        android:layout_below="@+id/btn_quadro_horarios"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <!--TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="mensagem"
+        android:id="@+id/textView5"
+        android:textColor="#fff8f8f8"
+        android:layout_below="@+id/btn_msg_prof"
+        android:gravity="center" /-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btn_sair"
+        android:text="sair"
+        android:layout_below="@+id/btn_eventos"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <!--TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="sair"
+        android:id="@+id/textView6"
+        android:textColor="#fff8f8f8"
+        android:layout_below="@+id/btn_sair"
+        android:layout_toRightOf="@+id/textView5"
+        android:gravity="center" /-->
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#130b9dc3">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/listView_mensagens"
+        android:layout_gravity="center_horizontal"
+        android:background="#8cf0f0f0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="menu"
+        android:id="@+id/voltar_msg"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/listView_mensagens" />
+
+</RelativeLayout>

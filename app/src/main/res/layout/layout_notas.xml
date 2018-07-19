@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7df6e891">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="disciplina"
+        android:id="@+id/disciplina"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="professor"
+        android:id="@+id/professor"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/disciplina"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faltas:"
+        android:id="@+id/textView7"
+        android:textSize="15dp"
+        android:layout_below="@+id/professor"
+        android:layout_alignBaseline="@+id/faltas"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/faltas"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_below="@+id/professor"
+        android:layout_toRightOf="@+id/textView7"
+        android:hint="0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notas_rv"
+        android:layout_below="@+id/textView7"
+        android:paddingTop="5dp"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1ªav:"
+        android:id="@+id/textView8"
+        android:textSize="15dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/av1"
+
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_marginRight="5dp"
+        android:hint="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2ªav:"
+        android:id="@+id/textView9"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/av1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/av2"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_marginRight="5dp"
+        android:hint="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2ªch:"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/av2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sc"
+
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_marginRight="5dp"
+        android:hint="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="final:"
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/sc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fin"
+
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_alignBaseline="@+id/textView2"
+        android:hint="0" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/media_rv"
+        android:layout_below="@+id/notas_rv"
+        android:paddingTop="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="média:"
+            android:id="@+id/textView3"
+            android:textSize="15dp"
+             />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/media"
+        android:layout_toRightOf="@+id/textView3"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_alignBaseline="@+id/textView3"
+        android:hint="0"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
